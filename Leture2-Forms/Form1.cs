@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Leture2_Forms
 {
-    public partial class Form1 : Form
+    public partial class frmStart : Form
     {
-        public Form1()
+        public frmStart()
         {
             InitializeComponent();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
