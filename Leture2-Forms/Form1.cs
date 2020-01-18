@@ -20,6 +20,7 @@ namespace Leture2_Forms
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+//i
         }
     }
 }
